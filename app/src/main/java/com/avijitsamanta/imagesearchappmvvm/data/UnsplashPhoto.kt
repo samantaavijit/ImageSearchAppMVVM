@@ -1,4 +1,4 @@
-package com.avijitsamanta.imagesearchappmvvm.models
+package com.avijitsamanta.imagesearchappmvvm.data
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
@@ -9,5 +9,4 @@ data class UnsplashPhoto(
     val description: String?,
     val user: UnsplashUser,
     val urls: UnsplashPhotoUrls
-) : Parcelable {
-}
+) : Parcelable
